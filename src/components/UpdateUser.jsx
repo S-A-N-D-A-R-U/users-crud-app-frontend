@@ -47,7 +47,7 @@ const UpdateUSer = () => {
   };
 
   return (
-    <div>
+    <div className="max-w-2xl mx-auto">
       <div className="flex items-center justify-between my-7">
         <Link to="/" className=" bg-slate-300 hover:bg-slate-400 px-3 py-1 rounded-md text-xs md:text-sm">
           Back
