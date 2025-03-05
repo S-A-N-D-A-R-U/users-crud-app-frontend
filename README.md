@@ -1,12 +1,40 @@
-# React + Vite
+#  Users CRUD App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple CRUD (Create, Read, Update, Delete) application built with React and Axios.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Create new users
+- Read and display users
+- Update user details
+- Delete users
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React.js
+- Axios (for API calls)
+- React Router (for navigation)
+- Toast notifications (react-toastify)
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/crud-app.git](https://github.com/S-A-N-D-A-R-U/users-crud-app-frontend.git
+   cd users-crud-app-frontend
+2. Install dependencies:
+   ```sh
+   npm install
+
+2. Start the development server:
+   ```sh
+   npm run dev
+
+## 🔌 Backend Setup
+Make sure your backend API is running at:
+   ```sh
+    http://localhost:5000
+
+## 🎯 API Endpoints
+POST /users - Create a user
+GET /users - Get all users
+PUT /users/:id - Update a user
+DELETE /users/:id - Delete a user
